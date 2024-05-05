@@ -72,7 +72,7 @@
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  gap: 25px;
+  gap: 20px;
 }
 
 .errorMsg {
