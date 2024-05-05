@@ -1,0 +1,56 @@
+.navBar-container {
+  max-width: 924px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.menu-img {
+  width: 25px;
+  height: 20px;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.mainPage-link,
+.contactUs-link {
+  cursor: pointer;
+}
+
+.disabled-color {
+  color: #a6aebb;
+}
+
+.border-underline {
+  border-bottom: 2px solid #fe855f;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navBar-container {
+    padding: 20px;
+  }
+
+  .logo-img {
+    width: 140px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-device-width: 1035px) {
+  .mainNavBar-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navBar-container {
+    gap: 510px;
+  }
+}

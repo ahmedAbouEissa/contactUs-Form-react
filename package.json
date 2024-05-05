@@ -6,8 +6,15 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^6.9.13",
+    "nodemailer-email-sender": "^1.0.1",
+    "nodemon": "^3.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
@@ -34,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "author": "Ahmed Abou Eissa <ahmed.abouissa.aai@gmail.com>",
+  "license": "MIT"
 }
