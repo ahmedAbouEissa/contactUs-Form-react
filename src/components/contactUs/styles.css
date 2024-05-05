@@ -60,6 +60,7 @@
 }
 
 .firstLastName-input {
+  width: 100%;
   display: grid;
 }
 
